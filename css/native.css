@@ -300,4 +300,19 @@ p.postaboutbot a{
 	p.postaboutbot {
 		width: 100%;
 	}
+
+	#pagewrapper-images {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.gallery1 {
+		width: 100%;
+		margin: 0px;
+	}
+
+	.gallery2 {
+		width: 100%;
+		margin: 0px;
+	}
 }
