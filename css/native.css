@@ -256,3 +256,48 @@ p.postaboutbot a{
 	width: 100%;
 	margin: 10px 0;
 }
+
+/* ------- MOBILE -------- */
+
+@media only screen and (max-width: 800px) {
+
+	#pill {
+		display: none;
+	} 
+
+	#headerinfo {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#navblock {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+	}
+
+	#nav {
+		padding: 0px;
+	}
+	
+	.commentimg {
+		width: 100%;
+	}
+
+	.blogimg img {
+		width: 100% !important;
+		height: 100% !important;
+	}
+
+	.postentry {
+		width: 73%;
+	}
+
+	p.postabout {
+		width: 100%;
+	}
+
+	p.postaboutbot {
+		width: 100%;
+	}
+}
